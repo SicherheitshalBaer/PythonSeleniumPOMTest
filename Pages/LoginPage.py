@@ -1,9 +1,6 @@
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 from Pages.BasePage import BasePage
 from Locators.locators import LoginPageLocators as LPL
 from Config.config import Data,Properties
-from selenium.webdriver.common.by import By
 
 
 class LoginPage(BasePage):
@@ -14,7 +11,6 @@ class LoginPage(BasePage):
 
     def __init__(self, driver):
         super().__init__(driver)
-        self.login(self)
 
     def login(self):
         self.driver.get(Properties.Base_URL)
