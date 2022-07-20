@@ -8,4 +8,6 @@ class Test_Login(BaseTest):
 
     def test_login(self):
         self.loginPage = LoginPage(self.driver)
+        self.loginPage.login()
+
 
