@@ -1,0 +1,5 @@
+[6396:104720:0803/093232.144:ERROR:device_event_log_impl.cc(214)] [09:32:32.144] USB: usb_service_win.cc:415 Could not read device interface GUIDs: The system cannot find the file specified. (0x2)
+[6396:104720:0803/093232.149:ERROR:device_event_log_impl.cc(214)] [09:32:32.149] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+[6396:104720:0803/093232.151:ERROR:device_event_log_impl.cc(214)] [09:32:32.151] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+[6396:104720:0803/093232.184:ERROR:device_event_log_impl.cc(214)] [09:32:32.185] Bluetooth: bluetooth_adapter_winrt.cc:1164 RequestRadioAccessAsync failed: RadioAccessStatus::DeniedByUserWill not be able to change radio power.
+[6396:104720:0803/093240.296:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
